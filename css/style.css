@@ -25,7 +25,6 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);   
-    overflow: hidden;
 }
 
 .heading-primary {
@@ -45,7 +44,7 @@ header {
 
 @keyframes moveInLeft {
     0% {
-        transform: translateX(-150%);
+        transform: translateX(-150px);
         opacity: 0;
     }
 
@@ -71,7 +70,7 @@ header {
 
 @keyframes moveInRight {
     0% {
-        transform: translateX(150%);
+        transform: translateX(150px);
         opacity: 0;
     }
 
