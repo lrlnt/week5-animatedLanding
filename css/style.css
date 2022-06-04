@@ -25,6 +25,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);   
+    overflow: hidden;
 }
 
 .heading-primary {
@@ -125,6 +126,10 @@ footer p {
     animation: spin 2s;
 }
 
+footer > p:hover {
+    animation-iteration-count: infinite;
+}
+
 @keyframes spin {
     0% {
       transform: rotateX(-20deg) rotateY(20deg);
@@ -132,4 +137,4 @@ footer p {
     100% {
       transform: rotateX(-20deg) rotateY(740deg);
     }
-  }
+}
